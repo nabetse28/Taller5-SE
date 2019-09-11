@@ -9,7 +9,7 @@ include_directories(${PROJECT_SOURCE_DIR}/lib)
 # add the executable
 add_executable (calculadora ${PROJECT_SOURCE_DIR}/src/calculadora.c)
 #link against required libraries
-target_link_libraries(calculadora operaciones)
+target_link_libraries(calculadora operaciones m)
 #install the binary
 install (TARGETS calculadora DESTINATION bin)
 #package source generation

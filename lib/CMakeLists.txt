@@ -1,7 +1,7 @@
 #add include to directories
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../include)
 #set the proper macros
-set(LIBRARY_NAME operaciones)
+set(LIBRARY_NAME calc)
 set(SRC_FILES operaciones.c)
 set(INCLUDE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/../include/operaciones.h)
 #add the library
